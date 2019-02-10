@@ -1,9 +1,30 @@
-li{
-  list-style: none;
-  text-indent: -2.4em; /* outdents 1st line only */
-}
-.thumbnail{
-    width:50%;
+/* .thumbnail{
+    width: 50%;
     margin: 0 auto;
+} */
+
+img {
+    background: lightgray;
+    margin: 0 auto;
+    display: block;
+    width: 125px;
+    height: 125px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
- 
+li {
+   text-indent: -2.4em; /* outdents 1st line only */
+   list-style: none;
+}
+
+.fa-border {
+    padding: .2em .25em .15em;
+    border: solid .08em white; 
+    /* border-radius: .1em; */
+}
+
+blockquote {
+      border: solid .08em white; 
+}
+
